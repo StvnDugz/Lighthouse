@@ -411,7 +411,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 61dddfdc5e0e44ca298d8f46f7f5a915, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  selectedFlowchart: {fileID: 1930355658961127650, guid: 50acbc2d7be8fcf47b95f62504fac5a5, type: 3}
+  selectedFlowchart: {fileID: 2976977948238375063}
 --- !u!4 &1237402150
 Transform:
   m_ObjectHideFlags: 1
@@ -2796,6 +2796,17 @@ PrefabInstance:
       objectReference: {fileID: 1821636812460955625}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0ae8a1fbafa76914896b57e2299f33a3, type: 3}
+--- !u!114 &2976977948238375063 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 4194097743872325886, guid: 0ae8a1fbafa76914896b57e2299f33a3, type: 3}
+  m_PrefabInstance: {fileID: 2976977948238375062}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7a334fe2ffb574b3583ff3b18b4792d3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &3811650815175184659
 MonoBehaviour:
   m_ObjectHideFlags: 2
