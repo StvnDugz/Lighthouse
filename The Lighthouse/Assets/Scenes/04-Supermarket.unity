@@ -371,7 +371,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 141
     y: 66
-    width: 124
+    width: 120.74824
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -395,11 +395,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: 185.33334, y: 81.16667}
+  scrollPos: {x: 448.09708, y: 187.1946}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 400
-  zoom: 1
+  zoom: 0.49000046
   scrollViewRect:
     serializedVersion: 2
     x: -343
@@ -525,7 +525,7 @@ MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 6796064030341995848, guid: 8b5b1497f20c2474c9abb12f8f6883d4, type: 3}
   m_PrefabInstance: {fileID: 6796064029125039219}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
+  m_GameObject: {fileID: 6796064029125039220}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 7a334fe2ffb574b3583ff3b18b4792d3, type: 3}
@@ -536,7 +536,7 @@ MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 6796064030341995853, guid: 8b5b1497f20c2474c9abb12f8f6883d4, type: 3}
   m_PrefabInstance: {fileID: 6796064029125039219}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
+  m_GameObject: {fileID: 6796064029125039220}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
@@ -571,7 +571,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 61dddfdc5e0e44ca298d8f46f7f5a915, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  selectedFlowchart: {fileID: 2976977948238375063}
+  selectedFlowchart: {fileID: 1234618683}
 --- !u!4 &1237402150
 Transform:
   m_ObjectHideFlags: 1
@@ -1664,17 +1664,6 @@ PrefabInstance:
       objectReference: {fileID: 1821636812460955625}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0ae8a1fbafa76914896b57e2299f33a3, type: 3}
---- !u!114 &2976977948238375063 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 4194097743872325886, guid: 0ae8a1fbafa76914896b57e2299f33a3, type: 3}
-  m_PrefabInstance: {fileID: 2976977948238375062}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7a334fe2ffb574b3583ff3b18b4792d3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1001 &6796064029125039219
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1690,6 +1679,14 @@ PrefabInstance:
       propertyPath: targetFlowchart
       value: 
       objectReference: {fileID: 920132336}
+    - target: {fileID: 6796064030341995848, guid: 8b5b1497f20c2474c9abb12f8f6883d4, type: 3}
+      propertyPath: selectedBlocks.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6796064030341995848, guid: 8b5b1497f20c2474c9abb12f8f6883d4, type: 3}
+      propertyPath: selectedCommands.Array.size
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6796064030341995850, guid: 8b5b1497f20c2474c9abb12f8f6883d4, type: 3}
       propertyPath: m_Name
       value: Pharmacy Flowchart
@@ -1738,6 +1735,122 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6796064030341995905, guid: 8b5b1497f20c2474c9abb12f8f6883d4, type: 3}
+      propertyPath: nodeRect.x
+      value: 161.85371
+      objectReference: {fileID: 0}
+    - target: {fileID: 6796064030341995905, guid: 8b5b1497f20c2474c9abb12f8f6883d4, type: 3}
+      propertyPath: nodeRect.y
+      value: 2165.1064
+      objectReference: {fileID: 0}
+    - target: {fileID: 6796064030341995908, guid: 8b5b1497f20c2474c9abb12f8f6883d4, type: 3}
+      propertyPath: nodeRect.x
+      value: 183.22981
+      objectReference: {fileID: 0}
+    - target: {fileID: 6796064030341995908, guid: 8b5b1497f20c2474c9abb12f8f6883d4, type: 3}
+      propertyPath: nodeRect.y
+      value: 2274.854
+      objectReference: {fileID: 0}
+    - target: {fileID: 6796064030341995931, guid: 8b5b1497f20c2474c9abb12f8f6883d4, type: 3}
+      propertyPath: nodeRect.x
+      value: -167.68646
+      objectReference: {fileID: 0}
+    - target: {fileID: 6796064030341995931, guid: 8b5b1497f20c2474c9abb12f8f6883d4, type: 3}
+      propertyPath: nodeRect.y
+      value: 2155.7383
+      objectReference: {fileID: 0}
+    - target: {fileID: 6796064030341995937, guid: 8b5b1497f20c2474c9abb12f8f6883d4, type: 3}
+      propertyPath: nodeRect.x
+      value: 265.38272
+      objectReference: {fileID: 0}
+    - target: {fileID: 6796064030341995937, guid: 8b5b1497f20c2474c9abb12f8f6883d4, type: 3}
+      propertyPath: nodeRect.y
+      value: 2408.0127
+      objectReference: {fileID: 0}
+    - target: {fileID: 6796064030341995942, guid: 8b5b1497f20c2474c9abb12f8f6883d4, type: 3}
+      propertyPath: nodeRect.x
+      value: 116.2982
+      objectReference: {fileID: 0}
+    - target: {fileID: 6796064030341995942, guid: 8b5b1497f20c2474c9abb12f8f6883d4, type: 3}
+      propertyPath: nodeRect.y
+      value: 2408.0122
+      objectReference: {fileID: 0}
+    - target: {fileID: 6796064030341995949, guid: 8b5b1497f20c2474c9abb12f8f6883d4, type: 3}
+      propertyPath: nodeRect.width
+      value: 109.863945
+      objectReference: {fileID: 0}
+    - target: {fileID: 6796064030341995949, guid: 8b5b1497f20c2474c9abb12f8f6883d4, type: 3}
+      propertyPath: commandList.Array.size
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 6796064030341995949, guid: 8b5b1497f20c2474c9abb12f8f6883d4, type: 3}
+      propertyPath: commandList.Array.data[2]
+      value: 
+      objectReference: {fileID: 6796064029125039227}
+    - target: {fileID: 6796064030341995949, guid: 8b5b1497f20c2474c9abb12f8f6883d4, type: 3}
+      propertyPath: commandList.Array.data[3]
+      value: 
+      objectReference: {fileID: 6796064029125039225}
+    - target: {fileID: 6796064030341995949, guid: 8b5b1497f20c2474c9abb12f8f6883d4, type: 3}
+      propertyPath: commandList.Array.data[4]
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 6796064030341995949, guid: 8b5b1497f20c2474c9abb12f8f6883d4, type: 3}
+      propertyPath: commandList.Array.data[5]
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 6796064030341995949, guid: 8b5b1497f20c2474c9abb12f8f6883d4, type: 3}
+      propertyPath: commandList.Array.data[6]
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 6796064030341995965, guid: 8b5b1497f20c2474c9abb12f8f6883d4, type: 3}
+      propertyPath: nodeRect.x
+      value: 148.25307
+      objectReference: {fileID: 0}
+    - target: {fileID: 6796064030341995965, guid: 8b5b1497f20c2474c9abb12f8f6883d4, type: 3}
+      propertyPath: nodeRect.y
+      value: 2528.3105
+      objectReference: {fileID: 0}
+    - target: {fileID: 6796064030341995966, guid: 8b5b1497f20c2474c9abb12f8f6883d4, type: 3}
+      propertyPath: nodeRect.x
+      value: 256.59885
+      objectReference: {fileID: 0}
+    - target: {fileID: 6796064030341995966, guid: 8b5b1497f20c2474c9abb12f8f6883d4, type: 3}
+      propertyPath: nodeRect.y
+      value: 2528.3105
+      objectReference: {fileID: 0}
+    - target: {fileID: 6796064030341995988, guid: 8b5b1497f20c2474c9abb12f8f6883d4, type: 3}
+      propertyPath: nodeRect.x
+      value: 72.22846
+      objectReference: {fileID: 0}
+    - target: {fileID: 6796064030341995988, guid: 8b5b1497f20c2474c9abb12f8f6883d4, type: 3}
+      propertyPath: nodeRect.y
+      value: 2660.168
+      objectReference: {fileID: 0}
+    - target: {fileID: 6796064030341995993, guid: 8b5b1497f20c2474c9abb12f8f6883d4, type: 3}
+      propertyPath: blockName
+      value: Throw meds2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6796064030341995993, guid: 8b5b1497f20c2474c9abb12f8f6883d4, type: 3}
+      propertyPath: nodeRect.x
+      value: -38.546684
+      objectReference: {fileID: 0}
+    - target: {fileID: 6796064030341995993, guid: 8b5b1497f20c2474c9abb12f8f6883d4, type: 3}
+      propertyPath: nodeRect.y
+      value: 2283.3809
+      objectReference: {fileID: 0}
+    - target: {fileID: 6796064030341995993, guid: 8b5b1497f20c2474c9abb12f8f6883d4, type: 3}
+      propertyPath: nodeRect.width
+      value: 118.33333
+      objectReference: {fileID: 0}
+    - target: {fileID: 6796064030341995996, guid: 8b5b1497f20c2474c9abb12f8f6883d4, type: 3}
+      propertyPath: nodeRect.x
+      value: -233.00056
+      objectReference: {fileID: 0}
+    - target: {fileID: 6796064030341995996, guid: 8b5b1497f20c2474c9abb12f8f6883d4, type: 3}
+      propertyPath: nodeRect.y
+      value: 2283.338
+      objectReference: {fileID: 0}
     - target: {fileID: 6796064030341996027, guid: 8b5b1497f20c2474c9abb12f8f6883d4, type: 3}
       propertyPath: anyVar.variable
       value: 
@@ -1750,5 +1863,163 @@ PrefabInstance:
       propertyPath: targetFlowchart
       value: 
       objectReference: {fileID: 920132336}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 6796064030341995929, guid: 8b5b1497f20c2474c9abb12f8f6883d4, type: 3}
+    - {fileID: 6796064030341995980, guid: 8b5b1497f20c2474c9abb12f8f6883d4, type: 3}
+    - {fileID: 6796064030341995955, guid: 8b5b1497f20c2474c9abb12f8f6883d4, type: 3}
+    - {fileID: 6796064030341995954, guid: 8b5b1497f20c2474c9abb12f8f6883d4, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 8b5b1497f20c2474c9abb12f8f6883d4, type: 3}
+--- !u!1 &6796064029125039220 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6796064030341995850, guid: 8b5b1497f20c2474c9abb12f8f6883d4, type: 3}
+  m_PrefabInstance: {fileID: 6796064029125039219}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &6796064029125039221 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 6796064030341995908, guid: 8b5b1497f20c2474c9abb12f8f6883d4, type: 3}
+  m_PrefabInstance: {fileID: 6796064029125039219}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6796064029125039220}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &6796064029125039222 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 6796064030341995931, guid: 8b5b1497f20c2474c9abb12f8f6883d4, type: 3}
+  m_PrefabInstance: {fileID: 6796064029125039219}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6796064029125039220}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &6796064029125039223
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6796064029125039220}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 050fb9e6e72f442b3b883da8a965bdeb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 346
+  indentLevel: 0
+  targetFlowchart: {fileID: 0}
+  targetBlock: {fileID: 6796064029125039221}
+  startLabel:
+    stringRef: {fileID: 0}
+    stringVal: 
+  startIndex: 0
+  callMode: 0
+--- !u!114 &6796064029125039224
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6796064029125039220}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 345
+  indentLevel: 0
+  storyText: You toss the meds to him and he takes his eyes off you to follow the
+    bottle. His grip on the weapon loosens.
+  description: 
+  character: {fileID: 0}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &6796064029125039225
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6796064029125039220}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 841589fc622bc494aa5405f416fa1301, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 344
+  indentLevel: 0
+  text: Throw the bottle in the air
+  description: 
+  targetBlock: {fileID: 6796064029125039226}
+  hideIfVisited: 0
+  interactable:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  setMenuDialog: {fileID: 0}
+  hideThisOption:
+    booleanRef: {fileID: 0}
+    booleanVal: 0
+--- !u!114 &6796064029125039226
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6796064029125039220}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nodeRect:
+    serializedVersion: 2
+    x: 447.00848
+    y: 1785.4387
+    width: 126.8116
+    height: 40
+  tint: {r: 1, g: 1, b: 1, a: 1}
+  useCustomTint: 0
+  itemId: 343
+  blockName: Throw meds1
+  description: 
+  eventHandler: {fileID: 0}
+  commandList:
+  - {fileID: 6796064029125039224}
+  - {fileID: 6796064029125039223}
+  suppressAllAutoSelections: 0
+--- !u!114 &6796064029125039227
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6796064029125039220}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 841589fc622bc494aa5405f416fa1301, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 336
+  indentLevel: 0
+  text: Hand the meds to him
+  description: 
+  targetBlock: {fileID: 6796064029125039222}
+  hideIfVisited: 0
+  interactable:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  setMenuDialog: {fileID: 0}
+  hideThisOption:
+    booleanRef: {fileID: 0}
+    booleanVal: 0
