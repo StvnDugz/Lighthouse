@@ -128,9 +128,6 @@ GameObject:
   - component: {fileID: 6796064030341995959}
   - component: {fileID: 6796064030341995952}
   - component: {fileID: 6796064030341995953}
-  - component: {fileID: 6796064030341995954}
-  - component: {fileID: 6796064030341995955}
-  - component: {fileID: 6796064030341995980}
   - component: {fileID: 6796064030341995977}
   - component: {fileID: 6796064030341995978}
   - component: {fileID: 6796064030341995979}
@@ -157,7 +154,6 @@ GameObject:
   - component: {fileID: 6796064030341995926}
   - component: {fileID: 6796064030341995927}
   - component: {fileID: 6796064030341995920}
-  - component: {fileID: 6796064030341995929}
   - component: {fileID: 6796064030341995930}
   - component: {fileID: 6796064030341995931}
   - component: {fileID: 6796064030341995924}
@@ -199,6 +195,8 @@ GameObject:
   - component: {fileID: 4906140555833958485}
   - component: {fileID: 4149819141221819636}
   - component: {fileID: 5053292577050274314}
+  - component: {fileID: 2149299235285128512}
+  - component: {fileID: 6796064029125039227}
   m_Layer: 0
   m_Name: Pharmacy Flowchart
   m_TagString: Untagged
@@ -245,8 +243,7 @@ MonoBehaviour:
     y: -340
     width: 1114
     height: 859
-  selectedBlocks:
-  - {fileID: 4149819141221819636}
+  selectedBlocks: []
   selectedCommands: []
   variables:
   - {fileID: 6796064030341995960}
@@ -1784,7 +1781,7 @@ MonoBehaviour:
   nodeRect:
     serializedVersion: 2
     x: 212.1729
-    y: 1307.2493
+    y: 1305.591
     width: 137.07483
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -2932,10 +2929,8 @@ MonoBehaviour:
   commandList:
   - {fileID: 6796064030341995952}
   - {fileID: 6796064030341995953}
-  - {fileID: 6796064030341995954}
-  - {fileID: 6796064030341995955}
-  - {fileID: 6796064030341995980}
-  - {fileID: 6796064030341995929}
+  - {fileID: 6796064029125039227}
+  - {fileID: 2149299235285128512}
   suppressAllAutoSelections: 0
 --- !u!114 &6796064030341995950
 MonoBehaviour:
@@ -3040,8 +3035,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 104.2982
-    y: 2084.0122
+    x: 116.2982
+    y: 2408.0122
     width: 132.9932
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -3117,8 +3112,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 253.38272
-    y: 2084.0127
+    x: 265.38272
+    y: 2408.0127
     width: 107.14285
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -3231,8 +3226,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 136.25307
-    y: 2204.3105
+    x: 148.25307
+    y: 2528.3105
     width: 104.42177
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -3261,8 +3256,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 244.59885
-    y: 2204.3105
+    x: 256.59885
+    y: 2528.3105
     width: 104.42177
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -3785,88 +3780,6 @@ MonoBehaviour:
   stopVoiceover: 1
   waitForVO: 0
   setSayDialog: {fileID: 0}
---- !u!114 &6796064030341995954
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6796064030341995850}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 231
-  indentLevel: 0
-  storyText: As you toss the meds to him he drops the shotgun to catch them.
-  description: 
-  character: {fileID: 0}
-  portrait: {fileID: 0}
-  voiceOverClip: {fileID: 0}
-  showAlways: 1
-  showCount: 1
-  extendPrevious: 0
-  fadeWhenDone: 1
-  waitForClick: 1
-  stopVoiceover: 1
-  waitForVO: 0
-  setSayDialog: {fileID: 0}
---- !u!114 &6796064030341995955
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6796064030341995850}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 232
-  indentLevel: 0
-  storyText: The weapon goes off underneath him and fires into his considerable girth.
-  description: 
-  character: {fileID: 0}
-  portrait: {fileID: 0}
-  voiceOverClip: {fileID: 0}
-  showAlways: 1
-  showCount: 1
-  extendPrevious: 0
-  fadeWhenDone: 1
-  waitForClick: 1
-  stopVoiceover: 1
-  waitForVO: 0
-  setSayDialog: {fileID: 0}
---- !u!114 &6796064030341995980
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6796064030341995850}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 233
-  indentLevel: 0
-  storyText: He slumps to the floor, grasping for the med bottle just out of reach
-    as he bleeds out.
-  description: 
-  character: {fileID: 0}
-  portrait: {fileID: 0}
-  voiceOverClip: {fileID: 0}
-  showAlways: 1
-  showCount: 1
-  extendPrevious: 0
-  fadeWhenDone: 1
-  waitForClick: 1
-  stopVoiceover: 1
-  waitForVO: 0
-  setSayDialog: {fileID: 0}
 --- !u!114 &6796064030341995977
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4123,8 +4036,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: -245.00056
-    y: 1959.3378
+    x: -233.00056
+    y: 2283.338
     width: 138.43536
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -4208,8 +4121,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: -50.546684
-    y: 1959.381
+    x: -38.546684
+    y: 2283.3809
     width: 116.666664
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -4292,8 +4205,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 60.228462
-    y: 2336.1677
+    x: 72.22846
+    y: 2660.168
     width: 89.45578
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -4546,27 +4459,6 @@ MonoBehaviour:
     floatRef: {fileID: 0}
     floatVal: 5
   durationOLD: 0
---- !u!114 &6796064030341995929
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6796064030341995850}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 050fb9e6e72f442b3b883da8a965bdeb, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 270
-  indentLevel: 0
-  targetFlowchart: {fileID: 0}
-  targetBlock: {fileID: 6796064030341995988}
-  startLabel:
-    stringRef: {fileID: 0}
-    stringVal: 
-  startIndex: 0
-  callMode: 0
 --- !u!114 &6796064030341995930
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4606,8 +4498,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: -179.68646
-    y: 1831.7382
+    x: -167.68646
+    y: 2155.7383
     width: 169.72789
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -4686,8 +4578,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 149.85371
-    y: 1841.1064
+    x: 161.85371
+    y: 2165.1064
     width: 146.59863
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -4796,8 +4688,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 171.22981
-    y: 1950.8539
+    x: 183.22981
+    y: 2274.854
     width: 113.94557
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -5016,7 +4908,7 @@ MonoBehaviour:
         gameObjectVal: {fileID: 0}
       integerData:
         integerRef: {fileID: 0}
-        integerVal: 1
+        integerVal: 2
       materialData:
         materialRef: {fileID: 0}
         materialVal: {fileID: 0}
@@ -5651,7 +5543,7 @@ MonoBehaviour:
         gameObjectVal: {fileID: 0}
       integerData:
         integerRef: {fileID: 0}
-        integerVal: 2
+        integerVal: 6
       materialData:
         materialRef: {fileID: 0}
         materialVal: {fileID: 0}
@@ -5968,7 +5860,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 329
   indentLevel: 1
-  storyText: '[+2 ammo]'
+  storyText: '[+6 ammo]'
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -6158,6 +6050,56 @@ MonoBehaviour:
   text: Throw it
   description: 
   targetBlock: {fileID: 6796064030341995816}
+  hideIfVisited: 0
+  interactable:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  setMenuDialog: {fileID: 0}
+  hideThisOption:
+    booleanRef: {fileID: 0}
+    booleanVal: 0
+--- !u!114 &2149299235285128512
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6796064030341995850}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 841589fc622bc494aa5405f416fa1301, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 344
+  indentLevel: 0
+  text: Throw the bottle in the air
+  description: 
+  targetBlock: {fileID: 6796064030341995993}
+  hideIfVisited: 0
+  interactable:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  setMenuDialog: {fileID: 0}
+  hideThisOption:
+    booleanRef: {fileID: 0}
+    booleanVal: 0
+--- !u!114 &6796064029125039227
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6796064030341995850}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 841589fc622bc494aa5405f416fa1301, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 336
+  indentLevel: 0
+  text: Hand the meds to him
+  description: 
+  targetBlock: {fileID: 6796064030341995931}
   hideIfVisited: 0
   interactable:
     booleanRef: {fileID: 0}
