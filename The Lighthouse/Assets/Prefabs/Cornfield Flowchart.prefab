@@ -103,6 +103,7 @@ GameObject:
   - component: {fileID: 2205898813442858334}
   - component: {fileID: 2205898813442858339}
   - component: {fileID: 2205898813442858340}
+  - component: {fileID: 2205898813442858308}
   m_Layer: 0
   m_Name: Cornfield Flowchart
   m_TagString: Untagged
@@ -1297,9 +1298,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 437.99982
-    y: 721.9205
-    width: 83.93939
+    x: 435.959
+    y: 834.16547
+    width: 84.37501
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1327,6 +1328,7 @@ MonoBehaviour:
   - {fileID: 2205898813442858387}
   - {fileID: 2205898813442858386}
   - {fileID: 2205898813442858385}
+  - {fileID: 2205898813442858308}
   suppressAllAutoSelections: 0
 --- !u!114 &566094896469183262
 MonoBehaviour:
@@ -2039,8 +2041,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 436.663
-    y: 841.16815
+    x: 434.6222
+    y: 953.41315
     width: 86.36364
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -3389,3 +3391,24 @@ MonoBehaviour:
     booleanVal: 0
   affectChildren: 1
   visibleOLD: 0
+--- !u!114 &2205898813442858308
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 566094896469183254}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 050fb9e6e72f442b3b883da8a965bdeb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 233
+  indentLevel: 1
+  targetFlowchart: {fileID: 0}
+  targetBlock: {fileID: 2205898813442858381}
+  startLabel:
+    stringRef: {fileID: 0}
+    stringVal: 
+  startIndex: 0
+  callMode: 0
