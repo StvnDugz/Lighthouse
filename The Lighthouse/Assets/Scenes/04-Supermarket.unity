@@ -709,7 +709,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!212 &1801423052
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1708,6 +1708,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Cornfield Flowchart
       objectReference: {fileID: 0}
+    - target: {fileID: 566094896469183257, guid: 50acbc2d7be8fcf47b95f62504fac5a5, type: 3}
+      propertyPath: selectedCommands.Array.size
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 566094896469183258, guid: 50acbc2d7be8fcf47b95f62504fac5a5, type: 3}
       propertyPath: m_RootOrder
       value: 7
@@ -2086,7 +2090,8 @@ PrefabInstance:
       propertyPath: targetFlowchart
       value: 
       objectReference: {fileID: 920132336}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 6796064029125039283, guid: 8b5b1497f20c2474c9abb12f8f6883d4, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 8b5b1497f20c2474c9abb12f8f6883d4, type: 3}
 --- !u!114 &6796064029125039220 stripped
 MonoBehaviour:
@@ -2128,7 +2133,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
 --- !u!114 &6796064029125039283
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -2138,7 +2143,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 345
+  itemId: 429
   indentLevel: 0
   storyText: You rummage inside the safe and pull out a small bottle of pain meds.
     Must be some strong stuff.

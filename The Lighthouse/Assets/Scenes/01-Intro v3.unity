@@ -2742,6 +2742,12 @@ PrefabInstance:
       propertyPath: m_Name
       value: Intro Flowchart
       objectReference: {fileID: 0}
+    - target: {fileID: 4194097743872325882, guid: 0ae8a1fbafa76914896b57e2299f33a3, type: 3}
+      propertyPath: storyText
+      value: "Your annoying co-worker (who\u2019s dead now, terrible shame) had a
+        plan to take his boat and head to a nearby island before the incoming storm
+        hits."
+      objectReference: {fileID: 0}
     - target: {fileID: 4194097743872325885, guid: 0ae8a1fbafa76914896b57e2299f33a3, type: 3}
       propertyPath: m_RootOrder
       value: 4

@@ -202,19 +202,12 @@ GameObject:
   - component: {fileID: 6796064029125039483}
   - component: {fileID: 6796064029125039484}
   - component: {fileID: 6796064029125039485}
-  - component: {fileID: 6796064029125039491}
   - component: {fileID: 6796064029125039576}
   - component: {fileID: 6796064029125039577}
   - component: {fileID: 6796064029125039586}
   - component: {fileID: 6796064029125039587}
   - component: {fileID: 6796064029125039588}
   - component: {fileID: 6796064029125039589}
-  - component: {fileID: 6796064029125039590}
-  - component: {fileID: 6796064029125039598}
-  - component: {fileID: 6796064029125039599}
-  - component: {fileID: 6796064029125039600}
-  - component: {fileID: 6796064029125039601}
-  - component: {fileID: 6796064029125039602}
   - component: {fileID: 6796064029125039603}
   - component: {fileID: 6796064029125039614}
   - component: {fileID: 6796064029125039652}
@@ -240,6 +233,27 @@ GameObject:
   - component: {fileID: 5553591293622203652}
   - component: {fileID: 5445763297430402776}
   - component: {fileID: 7309892829168650483}
+  - component: {fileID: 7808158305971308455}
+  - component: {fileID: 5767402876143240658}
+  - component: {fileID: 5832214474626422572}
+  - component: {fileID: 1340836830971541354}
+  - component: {fileID: 3634873678891863439}
+  - component: {fileID: 1102935654654473798}
+  - component: {fileID: 6833829114023851327}
+  - component: {fileID: 4755334760030597499}
+  - component: {fileID: 2060247887722775273}
+  - component: {fileID: 8900287436505948518}
+  - component: {fileID: 3187233135279209602}
+  - component: {fileID: 474880581526739194}
+  - component: {fileID: 211972284800147611}
+  - component: {fileID: 4611167146748301595}
+  - component: {fileID: 5729825879883888212}
+  - component: {fileID: 7899741113808616086}
+  - component: {fileID: 6198885775179461190}
+  - component: {fileID: 1850607724958559362}
+  - component: {fileID: 2357530692227694334}
+  - component: {fileID: 7918131655183999051}
+  - component: {fileID: 5558498737068015218}
   m_Layer: 0
   m_Name: Pharmacy Flowchart
   m_TagString: Untagged
@@ -275,11 +289,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: 704.9606, y: -2230.183}
+  scrollPos: {x: 70.165535, y: -1442.3541}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 255.33333
-  zoom: 0.46
+  zoom: 0.8800001
   scrollViewRect:
     serializedVersion: 2
     x: -343
@@ -287,7 +301,7 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 6796064029125039470}
+  - {fileID: 7808158305971308455}
   selectedCommands: []
   variables:
   - {fileID: 6796064030341995960}
@@ -319,7 +333,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 58.527767
     y: 79.52746
-    width: 109.42029
+    width: 106.0606
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -513,7 +527,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -139.93153
     y: 359.12592
-    width: 138.40579
+    width: 133.33331
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -541,7 +555,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 234.44348
     y: 365.33344
-    width: 132.6087
+    width: 128.78787
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -625,7 +639,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 64.52586
     y: 483.08743
-    width: 87.68116
+    width: 85.60606
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -800,7 +814,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -168.75777
     y: 595.0979
-    width: 164.49275
+    width: 159.84848
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -855,7 +869,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 233.46034
     y: 597.3591
-    width: 118.115944
+    width: 115.90908
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -911,7 +925,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 48.395973
     y: 596.1085
-    width: 155.7971
+    width: 150.75757
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1046,7 +1060,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 234.73721
     y: 712.85693
-    width: 131.15942
+    width: 127.27272
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1116,7 +1130,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -129.9525
     y: 717.5386
-    width: 147.10144
+    width: 143.18181
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1223,7 +1237,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -125.50043
     y: 835.6443
-    width: 126.81159
+    width: 122.727264
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1363,7 +1377,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 60.154327
     y: 872.31604
-    width: 122.46377
+    width: 118.18181
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1457,7 +1471,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 73.57754
     y: 961.8259
-    width: 93.47826
+    width: 91.66666
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1536,7 +1550,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -121.54588
     y: 1077.3673
-    width: 123.91304
+    width: 119.69696
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1564,7 +1578,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 231.78757
     y: 1079.131
-    width: 122.46377
+    width: 118.939384
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1692,7 +1706,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 236.47867
     y: 1193.769
-    width: 173.18842
+    width: 166.66666
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1827,14 +1841,14 @@ MonoBehaviour:
     serializedVersion: 2
     x: 212.1729
     y: 1303.2654
-    width: 141.30435
+    width: 138.63635
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
   itemId: 74
   blockName: Use key on safe
   description: 
-  eventHandler: {fileID: 6796064029125039491}
+  eventHandler: {fileID: 0}
   commandList:
   - {fileID: 6796064030341996029}
   - {fileID: 6796064029125039283}
@@ -1934,7 +1948,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 18.749466
     y: 1405.6846
-    width: 99.27536
+    width: 97.727264
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1965,7 +1979,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 375.17252
     y: 1410.8058
-    width: 116.666664
+    width: 112.878784
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1974,7 +1988,6 @@ MonoBehaviour:
   description: 
   eventHandler: {fileID: 0}
   commandList:
-  - {fileID: 0}
   - {fileID: 6796064029125039736}
   suppressAllAutoSelections: 0
 --- !u!114 &6796064030341996026
@@ -2210,9 +2223,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 487.14212
-    y: 1596.3165
-    width: 102.17391
+    x: 480.69052
+    y: 1641.4781
+    width: 100.75757
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2327,11 +2340,11 @@ MonoBehaviour:
   itemId: 184
   indentLevel: 0
   targetFlowchart: {fileID: 0}
-  targetBlock: {fileID: 6796064029125039589}
+  targetBlock: {fileID: 7808158305971308455}
   startLabel:
     stringRef: {fileID: 0}
     stringVal: 
-  startIndex: 3
+  startIndex: 2
   callMode: 0
 --- !u!114 &6796064030341996004
 MonoBehaviour:
@@ -2347,9 +2360,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 234.17532
-    y: 1592.0048
-    width: 148.55072
+    x: 227.72372
+    y: 1637.1664
+    width: 144.69696
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2716,7 +2729,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -23.7172
     y: 1713.0911
-    width: 134.05797
+    width: 131.0606
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2779,7 +2792,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 160.7851
     y: 1714.4318
-    width: 145.65218
+    width: 140.90909
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2808,7 +2821,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 346.4884
     y: 1716.3116
-    width: 112.31884
+    width: 109.84848
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2837,13 +2850,13 @@ MonoBehaviour:
   nodeRect:
     serializedVersion: 2
     x: 484.95303
-    y: 1712.5521
-    width: 99.27536
+    y: 1711.4158
+    width: 104.54545
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
   itemId: 202
-  blockName: Stay still
+  blockName: Stay still2
   description: 
   eventHandler: {fileID: 0}
   commandList:
@@ -2927,7 +2940,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 116.2982
     y: 2408.0122
-    width: 138.40579
+    width: 133.33331
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -3004,7 +3017,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 265.38272
     y: 2408.0127
-    width: 109.42029
+    width: 106.81818
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -3118,7 +3131,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 148.25307
     y: 2528.3105
-    width: 107.971016
+    width: 105.303024
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -3148,7 +3161,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 256.59885
     y: 2528.3105
-    width: 107.971016
+    width: 105.303024
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -3928,7 +3941,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -233.00056
     y: 2277.2156
-    width: 142.75363
+    width: 139.39392
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -4013,7 +4026,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -38.546684
     y: 2283.3809
-    width: 121.014496
+    width: 118.18181
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -4069,7 +4082,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 72.22846
     y: 2660.168
-    width: 92.028984
+    width: 90.90909
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -4268,7 +4281,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -167.68646
     y: 2155.7383
-    width: 176.08696
+    width: 170.45453
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -4348,7 +4361,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 161.85371
     y: 2165.1064
-    width: 152.89856
+    width: 148.48483
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -4458,7 +4471,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 183.22981
     y: 2274.854
-    width: 118.115944
+    width: 115.151505
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -5692,7 +5705,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 236.47131
     y: 204.53871
-    width: 122.46377
+    width: 118.939384
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -5744,7 +5757,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 242.59378
     y: 282.08975
-    width: 116.666664
+    width: 112.878784
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -5913,7 +5926,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -241.68051
     y: 2600.9612
-    width: 138.40579
+    width: 136.36362
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -5967,7 +5980,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -229.71565
     y: 2712.6943
-    width: 128.26086
+    width: 124.99999
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -6083,7 +6096,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -197.79047
     y: 2360.3945
-    width: 138.40579
+    width: 136.36362
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -6138,7 +6151,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -248.66353
     y: 2479.749
-    width: 138.40579
+    width: 133.33331
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -6246,7 +6259,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -484.73987
     y: 2477.2664
-    width: 202.17392
+    width: 193.93938
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -6314,21 +6327,6 @@ MonoBehaviour:
   stopVoiceover: 1
   waitForVO: 0
   setSayDialog: {fileID: 0}
---- !u!114 &6796064029125039491
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6796064030341995850}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d2f6487d21a03404cb21b245f0242e79, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  parentBlock: {fileID: 6796064030341996028}
-  suppressBlockAutoSelect: 0
-  waitForFrames: 1
 --- !u!114 &6796064029125039576
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6801,8 +6799,8 @@ MonoBehaviour:
   nodeRect:
     serializedVersion: 2
     x: 232.10486
-    y: 1444.2462
-    width: 119.565216
+    y: 1441.5065
+    width: 116.66666
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -6812,165 +6810,9 @@ MonoBehaviour:
   eventHandler: {fileID: 0}
   commandList:
   - {fileID: 6796064029125039603}
-  - {fileID: 6796064029125039602}
-  - {fileID: 6796064029125039601}
-  - {fileID: 6796064029125039600}
-  - {fileID: 6796064029125039599}
-  - {fileID: 6796064029125039598}
-  - {fileID: 6796064029125039590}
+  - {fileID: 2060247887722775273}
+  - {fileID: 8900287436505948518}
   suppressAllAutoSelections: 0
---- !u!114 &6796064029125039590
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6796064030341995850}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ab54728d981544842843ba6609b9a80a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 377
-  indentLevel: 0
-  _duration:
-    floatRef: {fileID: 0}
-    floatVal: 5
-  targetBlock: {fileID: 6796064030341995788}
-  durationOLD: 0
---- !u!114 &6796064029125039598
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6796064030341995850}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 841589fc622bc494aa5405f416fa1301, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 376
-  indentLevel: 0
-  text: "Rush him\r"
-  description: 
-  targetBlock: {fileID: 6796064030341995788}
-  hideIfVisited: 0
-  interactable:
-    booleanRef: {fileID: 0}
-    booleanVal: 1
-  setMenuDialog: {fileID: 0}
-  hideThisOption:
-    booleanRef: {fileID: 0}
-    booleanVal: 0
---- !u!114 &6796064029125039599
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6796064030341995850}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 841589fc622bc494aa5405f416fa1301, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 375
-  indentLevel: 0
-  text: Raise your hands
-  description: 
-  targetBlock: {fileID: 6796064030341996004}
-  hideIfVisited: 0
-  interactable:
-    booleanRef: {fileID: 0}
-    booleanVal: 1
-  setMenuDialog: {fileID: 0}
-  hideThisOption:
-    booleanRef: {fileID: 0}
-    booleanVal: 0
---- !u!114 &6796064029125039600
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6796064030341995850}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 382
-  indentLevel: 0
-  storyText: A large fat man with a sawn off shotgun pops up from behind the counter.
-  description: 
-  character: {fileID: 0}
-  portrait: {fileID: 0}
-  voiceOverClip: {fileID: 0}
-  showAlways: 1
-  showCount: 1
-  extendPrevious: 0
-  fadeWhenDone: 1
-  waitForClick: 1
-  stopVoiceover: 1
-  waitForVO: 0
-  setSayDialog: {fileID: 0}
---- !u!114 &6796064029125039601
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6796064030341995850}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 381
-  indentLevel: 0
-  storyText: An empty prescription bottle falls off the shelf and rattles to the
-    floor.
-  description: 
-  character: {fileID: 0}
-  portrait: {fileID: 0}
-  voiceOverClip: {fileID: 0}
-  showAlways: 0
-  showCount: 1
-  extendPrevious: 0
-  fadeWhenDone: 1
-  waitForClick: 1
-  stopVoiceover: 1
-  waitForVO: 0
-  setSayDialog: {fileID: 0}
---- !u!114 &6796064029125039602
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6796064030341995850}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 380
-  indentLevel: 0
-  storyText: "As you move to step over a sharp, rusted cabinet you lose your footing
-    briefly and grab a nearby shelf to steady yourself.\r"
-  description: 
-  character: {fileID: 0}
-  portrait: {fileID: 0}
-  voiceOverClip: {fileID: 0}
-  showAlways: 0
-  showCount: 1
-  extendPrevious: 0
-  fadeWhenDone: 1
-  waitForClick: 1
-  stopVoiceover: 1
-  waitForVO: 0
-  setSayDialog: {fileID: 0}
 --- !u!114 &6796064029125039603
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7545,7 +7387,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -400.9854
     y: 2597.3843
-    width: 126.81159
+    width: 123.48484
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -7781,3 +7623,555 @@ MonoBehaviour:
   hideThisOption:
     booleanRef: {fileID: 0}
     booleanVal: 0
+--- !u!114 &7808158305971308455
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6796064030341995850}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nodeRect:
+    serializedVersion: 2
+    x: 126.87836
+    y: 1523.6294
+    width: 90.151505
+    height: 40
+  tint: {r: 1, g: 1, b: 1, a: 1}
+  useCustomTint: 0
+  itemId: 406
+  blockName: Inspect
+  description: 
+  eventHandler: {fileID: 0}
+  commandList:
+  - {fileID: 5832214474626422572}
+  - {fileID: 1340836830971541354}
+  - {fileID: 3634873678891863439}
+  - {fileID: 1102935654654473798}
+  - {fileID: 6833829114023851327}
+  - {fileID: 4755334760030597499}
+  suppressAllAutoSelections: 0
+--- !u!114 &5767402876143240658
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6796064030341995850}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nodeRect:
+    serializedVersion: 2
+    x: 395.37164
+    y: 1511.3004
+    width: 75.75757
+    height: 40
+  tint: {r: 1, g: 1, b: 1, a: 1}
+  useCustomTint: 0
+  itemId: 407
+  blockName: Hide
+  description: 
+  eventHandler: {fileID: 0}
+  commandList:
+  - {fileID: 3187233135279209602}
+  - {fileID: 474880581526739194}
+  - {fileID: 211972284800147611}
+  - {fileID: 4611167146748301595}
+  suppressAllAutoSelections: 0
+--- !u!114 &5832214474626422572
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6796064030341995850}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 409
+  indentLevel: 0
+  storyText: "As you move to step over a sharp, rusted cabinet you lose your footing
+    briefly and grab a nearby shelf to steady yourself.\r"
+  description: 
+  character: {fileID: 0}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 0
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &1340836830971541354
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6796064030341995850}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 410
+  indentLevel: 0
+  storyText: An empty prescription bottle falls off the shelf and rattles to the
+    floor.
+  description: 
+  character: {fileID: 0}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 0
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &3634873678891863439
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6796064030341995850}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 411
+  indentLevel: 0
+  storyText: A large fat man with a sawn off shotgun pops up from behind the counter.
+  description: 
+  character: {fileID: 0}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &1102935654654473798
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6796064030341995850}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 841589fc622bc494aa5405f416fa1301, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 412
+  indentLevel: 0
+  text: Raise your hands
+  description: 
+  targetBlock: {fileID: 6796064030341996004}
+  hideIfVisited: 0
+  interactable:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  setMenuDialog: {fileID: 0}
+  hideThisOption:
+    booleanRef: {fileID: 0}
+    booleanVal: 0
+--- !u!114 &6833829114023851327
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6796064030341995850}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 841589fc622bc494aa5405f416fa1301, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 413
+  indentLevel: 0
+  text: "Rush him\r"
+  description: 
+  targetBlock: {fileID: 6796064030341995788}
+  hideIfVisited: 0
+  interactable:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  setMenuDialog: {fileID: 0}
+  hideThisOption:
+    booleanRef: {fileID: 0}
+    booleanVal: 0
+--- !u!114 &4755334760030597499
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6796064030341995850}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ab54728d981544842843ba6609b9a80a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 414
+  indentLevel: 0
+  _duration:
+    floatRef: {fileID: 0}
+    floatVal: 5
+  targetBlock: {fileID: 6796064030341995788}
+  durationOLD: 0
+--- !u!114 &2060247887722775273
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6796064030341995850}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 841589fc622bc494aa5405f416fa1301, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 415
+  indentLevel: 0
+  text: Inspect
+  description: 
+  targetBlock: {fileID: 7808158305971308455}
+  hideIfVisited: 0
+  interactable:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  setMenuDialog: {fileID: 0}
+  hideThisOption:
+    booleanRef: {fileID: 0}
+    booleanVal: 0
+--- !u!114 &8900287436505948518
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6796064030341995850}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 841589fc622bc494aa5405f416fa1301, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 416
+  indentLevel: 0
+  text: Hide
+  description: 
+  targetBlock: {fileID: 5767402876143240658}
+  hideIfVisited: 0
+  interactable:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  setMenuDialog: {fileID: 0}
+  hideThisOption:
+    booleanRef: {fileID: 0}
+    booleanVal: 0
+--- !u!114 &3187233135279209602
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6796064030341995850}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 417
+  indentLevel: 0
+  storyText: You hide
+  description: 
+  character: {fileID: 0}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &474880581526739194
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6796064030341995850}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 418
+  indentLevel: 0
+  storyText: The man enters the room, he frantically searches around the room looking
+    for something.
+  description: 
+  character: {fileID: 0}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &211972284800147611
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6796064030341995850}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 841589fc622bc494aa5405f416fa1301, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 419
+  indentLevel: 0
+  text: Reveal yourself
+  description: 
+  targetBlock: {fileID: 6796064030341996004}
+  hideIfVisited: 0
+  interactable:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  setMenuDialog: {fileID: 0}
+  hideThisOption:
+    booleanRef: {fileID: 0}
+    booleanVal: 0
+--- !u!114 &4611167146748301595
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6796064030341995850}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 841589fc622bc494aa5405f416fa1301, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 420
+  indentLevel: 0
+  text: Stay still
+  description: 
+  targetBlock: {fileID: 5729825879883888212}
+  hideIfVisited: 0
+  interactable:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  setMenuDialog: {fileID: 0}
+  hideThisOption:
+    booleanRef: {fileID: 0}
+    booleanVal: 0
+--- !u!114 &5729825879883888212
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6796064030341995850}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nodeRect:
+    serializedVersion: 2
+    x: 373.72638
+    y: 1562.1113
+    width: 84.090904
+    height: 40
+  tint: {r: 1, g: 1, b: 1, a: 1}
+  useCustomTint: 0
+  itemId: 421
+  blockName: Found
+  description: 
+  eventHandler: {fileID: 0}
+  commandList:
+  - {fileID: 7899741113808616086}
+  - {fileID: 5558498737068015218}
+  - {fileID: 6198885775179461190}
+  - {fileID: 1850607724958559362}
+  - {fileID: 2357530692227694334}
+  - {fileID: 7918131655183999051}
+  suppressAllAutoSelections: 0
+--- !u!114 &7899741113808616086
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6796064030341995850}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 423
+  indentLevel: 0
+  storyText: 'The large fat man finds you.
+
+'
+  description: 
+  character: {fileID: 0}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &6198885775179461190
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6796064030341995850}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 424
+  indentLevel: 0
+  storyText: "You slump to the dirty floor and bleed profusely onto a discarded hustler.\r"
+  description: 
+  character: {fileID: 0}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &1850607724958559362
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6796064030341995850}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 425
+  indentLevel: 0
+  storyText: "[YOU ARE DEAD]\r"
+  description: 
+  character: {fileID: 0}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &2357530692227694334
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6796064030341995850}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3315ad2ebb85443909a1203d56d9344e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 426
+  indentLevel: 0
+  _duration:
+    floatRef: {fileID: 0}
+    floatVal: 5
+  durationOLD: 0
+--- !u!114 &7918131655183999051
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6796064030341995850}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 050fb9e6e72f442b3b883da8a965bdeb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 427
+  indentLevel: 0
+  targetFlowchart: {fileID: 0}
+  targetBlock: {fileID: 5767402876143240658}
+  startLabel:
+    stringRef: {fileID: 0}
+    stringVal: 
+  startIndex: 1
+  callMode: 0
+--- !u!114 &5558498737068015218
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6796064030341995850}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 428
+  indentLevel: 0
+  storyText: 'The large fat man shoots you in the head.
+
+'
+  description: 
+  character: {fileID: 0}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
