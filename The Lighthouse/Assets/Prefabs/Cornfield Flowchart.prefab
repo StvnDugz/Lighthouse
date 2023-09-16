@@ -2934,7 +2934,7 @@ MonoBehaviour:
   indentLevel: 1
   text: Stab the slasher!
   description: 
-  targetBlock: {fileID: 566094896469183266}
+  targetBlock: {fileID: 0}
   hideIfVisited: 0
   interactable:
     booleanRef: {fileID: 0}

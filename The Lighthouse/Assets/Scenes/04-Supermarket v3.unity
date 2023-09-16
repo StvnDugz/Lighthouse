@@ -185,7 +185,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 68
     y: 66
-    width: 131.33334
+    width: 136.27438
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -209,11 +209,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: 0, y: 0}
+  scrollPos: {x: 568.0084, y: 319.59387}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 400
-  zoom: 1
+  zoom: 0.34000045
   scrollViewRect:
     serializedVersion: 2
     x: -343
@@ -344,7 +344,7 @@ MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 276825179, guid: 0ae8a1fbafa76914896b57e2299f33a3, type: 3}
   m_PrefabInstance: {fileID: 2976977948238375062}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
+  m_GameObject: {fileID: 1641535669}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: afb91b566ceda411bad1e9d3c3243ecc, type: 3}
@@ -893,7 +893,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 287.27716
     y: 2485.9858
-    width: 154
+    width: 147.70117
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -924,7 +924,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -6.6359253
     y: 2481.6377
-    width: 156.66666
+    width: 147.70117
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1126,7 +1126,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 61dddfdc5e0e44ca298d8f46f7f5a915, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  selectedFlowchart: {fileID: 1234618683}
+  selectedFlowchart: {fileID: 1821636812460955625}
 --- !u!4 &1237402150
 Transform:
   m_ObjectHideFlags: 1
@@ -1142,6 +1142,37 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1641535669 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4194097743872325858, guid: 0ae8a1fbafa76914896b57e2299f33a3, type: 3}
+  m_PrefabInstance: {fileID: 2976977948238375062}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1641535670
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1641535669}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d2f6487d21a03404cb21b245f0242e79, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  parentBlock: {fileID: 1641535671}
+  suppressBlockAutoSelect: 0
+  waitForFrames: 1
+--- !u!114 &1641535671 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 4194097743872325887, guid: 0ae8a1fbafa76914896b57e2299f33a3, type: 3}
+  m_PrefabInstance: {fileID: 2976977948238375062}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1641535669}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1801423051
 GameObject:
   m_ObjectHideFlags: 0
@@ -2157,6 +2188,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Cornfield Flowchart
       objectReference: {fileID: 0}
+    - target: {fileID: 566094896469183257, guid: 50acbc2d7be8fcf47b95f62504fac5a5, type: 3}
+      propertyPath: selectedCommands.Array.size
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 566094896469183258, guid: 50acbc2d7be8fcf47b95f62504fac5a5, type: 3}
       propertyPath: m_RootOrder
       value: 7
@@ -2200,6 +2235,18 @@ PrefabInstance:
     - target: {fileID: 566094896469183258, guid: 50acbc2d7be8fcf47b95f62504fac5a5, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 566094896469183281, guid: 50acbc2d7be8fcf47b95f62504fac5a5, type: 3}
+      propertyPath: nodeRect.x
+      value: 430.61356
+      objectReference: {fileID: 0}
+    - target: {fileID: 566094896469183281, guid: 50acbc2d7be8fcf47b95f62504fac5a5, type: 3}
+      propertyPath: nodeRect.y
+      value: 472.7379
+      objectReference: {fileID: 0}
+    - target: {fileID: 566094896469183296, guid: 50acbc2d7be8fcf47b95f62504fac5a5, type: 3}
+      propertyPath: eventHandler
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 2205898813442858236, guid: 50acbc2d7be8fcf47b95f62504fac5a5, type: 3}
       propertyPath: anyVar.variable
@@ -2249,6 +2296,10 @@ PrefabInstance:
       propertyPath: anyVar.variable
       value: 
       objectReference: {fileID: 276825179}
+    - target: {fileID: 2205898813442858459, guid: 50acbc2d7be8fcf47b95f62504fac5a5, type: 3}
+      propertyPath: nodeRect.y
+      value: 591.3812
+      objectReference: {fileID: 0}
     - target: {fileID: 6740923594421092758, guid: 50acbc2d7be8fcf47b95f62504fac5a5, type: 3}
       propertyPath: nodeRect.x
       value: 435.959
@@ -2257,7 +2308,8 @@ PrefabInstance:
       propertyPath: nodeRect.y
       value: 834.16547
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 2205898813442858436, guid: 50acbc2d7be8fcf47b95f62504fac5a5, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 50acbc2d7be8fcf47b95f62504fac5a5, type: 3}
 --- !u!114 &2205898813442858305 stripped
 MonoBehaviour:
@@ -2352,7 +2404,7 @@ PrefabInstance:
     - target: {fileID: 4194097743872325887, guid: 0ae8a1fbafa76914896b57e2299f33a3, type: 3}
       propertyPath: eventHandler
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 1641535670}
     - target: {fileID: 4194097743872325887, guid: 0ae8a1fbafa76914896b57e2299f33a3, type: 3}
       propertyPath: nodeRect.width
       value: 74.48979
@@ -3190,7 +3242,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6796064030341996025, guid: 8b5b1497f20c2474c9abb12f8f6883d4, type: 3}
       propertyPath: commandList.Array.size
-      value: 2
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6796064030341996025, guid: 8b5b1497f20c2474c9abb12f8f6883d4, type: 3}
       propertyPath: commandList.Array.data[0]
@@ -3264,6 +3316,24 @@ PrefabInstance:
     - {fileID: 6796064030341996023, guid: 8b5b1497f20c2474c9abb12f8f6883d4, type: 3}
     - {fileID: 6796064030341995923, guid: 8b5b1497f20c2474c9abb12f8f6883d4, type: 3}
     - {fileID: 0}
+    - {fileID: 6796064029125039667, guid: 8b5b1497f20c2474c9abb12f8f6883d4, type: 3}
+    - {fileID: 6796064030341996159, guid: 8b5b1497f20c2474c9abb12f8f6883d4, type: 3}
+    - {fileID: 6796064029125039283, guid: 8b5b1497f20c2474c9abb12f8f6883d4, type: 3}
+    - {fileID: 6796064029125039466, guid: 8b5b1497f20c2474c9abb12f8f6883d4, type: 3}
+    - {fileID: 6796064029125039576, guid: 8b5b1497f20c2474c9abb12f8f6883d4, type: 3}
+    - {fileID: 6796064029125039577, guid: 8b5b1497f20c2474c9abb12f8f6883d4, type: 3}
+    - {fileID: 6796064029125039586, guid: 8b5b1497f20c2474c9abb12f8f6883d4, type: 3}
+    - {fileID: 6796064029125039587, guid: 8b5b1497f20c2474c9abb12f8f6883d4, type: 3}
+    - {fileID: 6796064029125039588, guid: 8b5b1497f20c2474c9abb12f8f6883d4, type: 3}
+    - {fileID: 6796064029125039614, guid: 8b5b1497f20c2474c9abb12f8f6883d4, type: 3}
+    - {fileID: 6796064029125039652, guid: 8b5b1497f20c2474c9abb12f8f6883d4, type: 3}
+    - {fileID: 6796064029125039659, guid: 8b5b1497f20c2474c9abb12f8f6883d4, type: 3}
+    - {fileID: 6796064029125039665, guid: 8b5b1497f20c2474c9abb12f8f6883d4, type: 3}
+    - {fileID: 6796064029125039670, guid: 8b5b1497f20c2474c9abb12f8f6883d4, type: 3}
+    - {fileID: 6796064029125039736, guid: 8b5b1497f20c2474c9abb12f8f6883d4, type: 3}
+    - {fileID: 6796064029125039819, guid: 8b5b1497f20c2474c9abb12f8f6883d4, type: 3}
+    - {fileID: 6796064029125039820, guid: 8b5b1497f20c2474c9abb12f8f6883d4, type: 3}
+    - {fileID: 6796064029125039832, guid: 8b5b1497f20c2474c9abb12f8f6883d4, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 8b5b1497f20c2474c9abb12f8f6883d4, type: 3}
 --- !u!114 &6796064029125039220 stripped
 MonoBehaviour:
@@ -3326,7 +3396,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 345
+  itemId: 435
   indentLevel: 0
   storyText: You rummage inside the safe and pull out a small bottle of pain meds.
     Must be some strong stuff.
@@ -3475,7 +3545,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 050fb9e6e72f442b3b883da8a965bdeb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 346
+  itemId: 436
   indentLevel: 1
   targetFlowchart: {fileID: 0}
   targetBlock: {fileID: 6796064029125039295}
@@ -3496,7 +3566,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3315ad2ebb85443909a1203d56d9344e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 347
+  itemId: 437
   indentLevel: 1
   _duration:
     floatRef: {fileID: 0}
@@ -3522,7 +3592,7 @@ MonoBehaviour:
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
-  itemId: 353
+  itemId: 429
   blockName: Roll him on side
   description: 
   eventHandler: {fileID: 0}
@@ -3542,7 +3612,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 841589fc622bc494aa5405f416fa1301, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 361
+  itemId: 438
   indentLevel: 0
   text: Stay with him
   description: 
@@ -3575,7 +3645,7 @@ MonoBehaviour:
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
-  itemId: 362
+  itemId: 430
   blockName: Stay with him
   description: 
   eventHandler: {fileID: 0}
@@ -3595,7 +3665,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 364
+  itemId: 439
   indentLevel: 0
   storyText: As long as it takes. Every life is special. You place your hand on his
     shoulder, smiling with satisfaction.
@@ -3623,7 +3693,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 363
+  itemId: 440
   indentLevel: 0
   storyText: "He\u2019s your responsibility now, hell maybe you even love him? You\u2019ll
     wait with him until he\u2019s better."
@@ -3651,7 +3721,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 354
+  itemId: 441
   indentLevel: 0
   storyText: You put your hands on his shoulders and back, just like you learned
     in that one cpr class with the busty nurse. You tilt him over on his side and
@@ -3688,7 +3758,7 @@ MonoBehaviour:
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
-  itemId: 348
+  itemId: 431
   blockName: "Ask if he\u2019s okay"
   description: 
   eventHandler: {fileID: 0}
@@ -3709,7 +3779,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 841589fc622bc494aa5405f416fa1301, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 359
+  itemId: 442
   indentLevel: 0
   text: Try to take the gun
   description: 
@@ -3742,7 +3812,7 @@ MonoBehaviour:
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
-  itemId: 355
+  itemId: 432
   blockName: Try to take gun
   description: 
   eventHandler: {fileID: 0}
@@ -3762,7 +3832,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 841589fc622bc494aa5405f416fa1301, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 360
+  itemId: 443
   indentLevel: 0
   text: Roll him on his side
   description: 
@@ -3787,7 +3857,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 356
+  itemId: 444
   indentLevel: 0
   storyText: You walk up to him. He twitches for a moment, then goes still. You slide
     the gun out of his hands. He falls back to the floor, frothing at the mouth.
@@ -3815,7 +3885,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 841589fc622bc494aa5405f416fa1301, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 358
+  itemId: 445
   indentLevel: 0
   text: Wave your hand in front of his face
   description: 
@@ -3848,7 +3918,7 @@ MonoBehaviour:
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
-  itemId: 351
+  itemId: 433
   blockName: Wave hand in front of face
   description: 
   eventHandler: {fileID: 0}
@@ -3867,7 +3937,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 357
+  itemId: 446
   indentLevel: 0
   storyText: You call out to him waving a hand back and forth. His pupils stare straight
     ahead.
@@ -3895,7 +3965,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 349
+  itemId: 447
   indentLevel: 0
   storyText: He says nothing. His eyes have glazed over.
   description: 
@@ -3981,7 +4051,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fb77d0ce495044f6e9feb91b31798e8c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 365
+  itemId: 448
   indentLevel: 0
   anyVar:
     variable: {fileID: 6796064029125039667}
@@ -4133,7 +4203,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 050fb9e6e72f442b3b883da8a965bdeb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 386
+  itemId: 449
   indentLevel: 1
   targetFlowchart: {fileID: 0}
   targetBlock: {fileID: 6796064029125039295}
@@ -4165,7 +4235,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 385
+  itemId: 450
   indentLevel: 1
   storyText: You wish you had those sweet pearls right now.
   description: 
@@ -4192,7 +4262,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3fa968f01a7f9496bb50e13dfe16760d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 384
+  itemId: 451
   indentLevel: 0
 --- !u!114 &6796064029125039588
 MonoBehaviour:
@@ -4206,7 +4276,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 70c5622b8a80845c980954170295f292, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 383
+  itemId: 452
   indentLevel: 0
   anyOrAllConditions: 0
   conditions:
@@ -4457,7 +4527,7 @@ MonoBehaviour:
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
-  itemId: 373
+  itemId: 434
   blockName: Found meds
   description: 
   eventHandler: {fileID: 0}
@@ -4645,7 +4715,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 379
+  itemId: 453
   indentLevel: 0
   storyText: "You hear the front door open. Someone else is in the building. You
     leave the office slowly.\r"
@@ -4684,7 +4754,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 841589fc622bc494aa5405f416fa1301, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 369
+  itemId: 454
   indentLevel: 1
   text: Dive for the floor
   description: 
@@ -4720,7 +4790,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 841589fc622bc494aa5405f416fa1301, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 368
+  itemId: 455
   indentLevel: 1
   text: Try to talk him down
   description: 
@@ -4756,7 +4826,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3fa968f01a7f9496bb50e13dfe16760d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 367
+  itemId: 456
   indentLevel: 0
 --- !u!114 &6796064029125039660 stripped
 MonoBehaviour:
@@ -4825,7 +4895,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 70c5622b8a80845c980954170295f292, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 366
+  itemId: 457
   indentLevel: 0
   anyOrAllConditions: 0
   conditions:
@@ -5083,7 +5153,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 841589fc622bc494aa5405f416fa1301, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 387
+  itemId: 458
   indentLevel: 1
   text: Stay still
   description: 
