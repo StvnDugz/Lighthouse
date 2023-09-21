@@ -327,8 +327,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 98992186}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1.5, y: 1.5, z: 1}
+  m_LocalPosition: {x: 0, y: -1.5, z: 0}
+  m_LocalScale: {x: 2, y: 2, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -421,7 +421,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 272866141}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 1, z: 0}
   m_LocalScale: {x: 1.5, y: 1.5, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -470,6 +470,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2d49b7c1bcd2e07499844da127be038d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  m_SendPointerHoverToParent: 1
   m_ForceModuleActive: 0
 --- !u!114 &435377703
 MonoBehaviour:
@@ -483,6 +484,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4f231c4fb786f3946a6b90b886c48677, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  m_SendPointerHoverToParent: 1
   m_HorizontalAxis: Horizontal
   m_VerticalAxis: Vertical
   m_SubmitButton: Submit
@@ -534,17 +536,6 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &544440527 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 4194097743872325886, guid: 0ae8a1fbafa76914896b57e2299f33a3, type: 3}
-  m_PrefabInstance: {fileID: 2976977948238375062}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 544440430}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7a334fe2ffb574b3583ff3b18b4792d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!114 &544440641
@@ -1246,7 +1237,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 61dddfdc5e0e44ca298d8f46f7f5a915, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  selectedFlowchart: {fileID: 544440527}
+  selectedFlowchart: {fileID: 35372568}
 --- !u!4 &1237402150
 Transform:
   m_ObjectHideFlags: 1
@@ -1321,7 +1312,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 4db78cf9a718c4c439f982a920e030d2, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -1339,8 +1330,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1801423051}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1.5, y: 1.5, z: 2}
+  m_LocalPosition: {x: 0, y: -1.25, z: 0}
+  m_LocalScale: {x: 1.75, y: 1.75, z: 2}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -2349,6 +2340,16 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 566094896469183265, guid: 50acbc2d7be8fcf47b95f62504fac5a5, type: 3}
+      propertyPath: storyText
+      value: "You bring your knife down on his arm just as it swipes at you with
+        its other hand. It screams, lets go and bolts.\r"
+      objectReference: {fileID: 0}
+    - target: {fileID: 566094896469183270, guid: 50acbc2d7be8fcf47b95f62504fac5a5, type: 3}
+      propertyPath: storyText
+      value: "I mean why\u2026 why would you even\u2026 He bites you in your stupid
+        face."
+      objectReference: {fileID: 0}
     - target: {fileID: 566094896469183281, guid: 50acbc2d7be8fcf47b95f62504fac5a5, type: 3}
       propertyPath: nodeRect.y
       value: 470.50732
@@ -2365,6 +2366,10 @@ PrefabInstance:
       propertyPath: anyVar.variable
       value: 
       objectReference: {fileID: 276825179}
+    - target: {fileID: 2205898813442858306, guid: 50acbc2d7be8fcf47b95f62504fac5a5, type: 3}
+      propertyPath: storyText
+      value: He bites you in your stupid face.
+      objectReference: {fileID: 0}
     - target: {fileID: 2205898813442858334, guid: 50acbc2d7be8fcf47b95f62504fac5a5, type: 3}
       propertyPath: spriteRenderer
       value: 
@@ -2407,7 +2412,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2205898813442858381, guid: 50acbc2d7be8fcf47b95f62504fac5a5, type: 3}
       propertyPath: nodeRect.y
-      value: 1109.3674
+      value: 1112.7771
       objectReference: {fileID: 0}
     - target: {fileID: 2205898813442858381, guid: 50acbc2d7be8fcf47b95f62504fac5a5, type: 3}
       propertyPath: nodeRect.width
@@ -2415,48 +2420,48 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2205898813442858381, guid: 50acbc2d7be8fcf47b95f62504fac5a5, type: 3}
       propertyPath: commandList.Array.size
-      value: 7
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 2205898813442858381, guid: 50acbc2d7be8fcf47b95f62504fac5a5, type: 3}
       propertyPath: commandList.Array.data[0]
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 2205898813442858680}
     - target: {fileID: 2205898813442858381, guid: 50acbc2d7be8fcf47b95f62504fac5a5, type: 3}
       propertyPath: commandList.Array.data[1]
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 2205898813442858677}
     - target: {fileID: 2205898813442858381, guid: 50acbc2d7be8fcf47b95f62504fac5a5, type: 3}
       propertyPath: commandList.Array.data[2]
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 2205898813442858682}
     - target: {fileID: 2205898813442858381, guid: 50acbc2d7be8fcf47b95f62504fac5a5, type: 3}
       propertyPath: commandList.Array.data[3]
       value: 
-      objectReference: {fileID: 2205898813442858314}
+      objectReference: {fileID: 2205898813442858681}
     - target: {fileID: 2205898813442858381, guid: 50acbc2d7be8fcf47b95f62504fac5a5, type: 3}
       propertyPath: commandList.Array.data[4]
       value: 
-      objectReference: {fileID: 2205898813442858313}
+      objectReference: {fileID: 2205898813442858676}
     - target: {fileID: 2205898813442858381, guid: 50acbc2d7be8fcf47b95f62504fac5a5, type: 3}
       propertyPath: commandList.Array.data[5]
       value: 
-      objectReference: {fileID: 2205898813442858312}
+      objectReference: {fileID: 2205898813442858678}
     - target: {fileID: 2205898813442858381, guid: 50acbc2d7be8fcf47b95f62504fac5a5, type: 3}
       propertyPath: commandList.Array.data[6]
       value: 
-      objectReference: {fileID: 2205898813442858311}
+      objectReference: {fileID: 0}
     - target: {fileID: 2205898813442858381, guid: 50acbc2d7be8fcf47b95f62504fac5a5, type: 3}
       propertyPath: commandList.Array.data[7]
       value: 
-      objectReference: {fileID: 2205898813442858307}
+      objectReference: {fileID: 0}
     - target: {fileID: 2205898813442858381, guid: 50acbc2d7be8fcf47b95f62504fac5a5, type: 3}
       propertyPath: commandList.Array.data[8]
       value: 
-      objectReference: {fileID: 2205898813442858310}
+      objectReference: {fileID: 0}
     - target: {fileID: 2205898813442858381, guid: 50acbc2d7be8fcf47b95f62504fac5a5, type: 3}
       propertyPath: commandList.Array.data[9]
       value: 
-      objectReference: {fileID: 2205898813442858508}
+      objectReference: {fileID: 0}
     - target: {fileID: 2205898813442858381, guid: 50acbc2d7be8fcf47b95f62504fac5a5, type: 3}
       propertyPath: commandList.Array.data[10]
       value: 
@@ -2465,10 +2470,19 @@ PrefabInstance:
       propertyPath: anyVar.variable
       value: 
       objectReference: {fileID: 276825179}
+    - target: {fileID: 2205898813442858399, guid: 50acbc2d7be8fcf47b95f62504fac5a5, type: 3}
+      propertyPath: storyText
+      value: "You see light and break the edge of the cornfield. The creature tackles
+        you, sending you sprawling. \r\n"
+      objectReference: {fileID: 0}
     - target: {fileID: 2205898813442858445, guid: 50acbc2d7be8fcf47b95f62504fac5a5, type: 3}
       propertyPath: targetBlock
       value: 
       objectReference: {fileID: 2205898813442858308}
+    - target: {fileID: 2205898813442858447, guid: 50acbc2d7be8fcf47b95f62504fac5a5, type: 3}
+      propertyPath: storyText
+      value: Oh look at that your new friend left you, same as they all do.
+      objectReference: {fileID: 0}
     - target: {fileID: 2205898813442858450, guid: 50acbc2d7be8fcf47b95f62504fac5a5, type: 3}
       propertyPath: storyText
       value: "Suddenly a brownish blur tackles the beast. The dog! It growls menacingly,
@@ -2476,11 +2490,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2205898813442858451, guid: 50acbc2d7be8fcf47b95f62504fac5a5, type: 3}
       propertyPath: nodeRect.x
-      value: 345.99484
+      value: 309.24072
       objectReference: {fileID: 0}
     - target: {fileID: 2205898813442858451, guid: 50acbc2d7be8fcf47b95f62504fac5a5, type: 3}
       propertyPath: nodeRect.y
-      value: 949.15204
+      value: 1024.5226
       objectReference: {fileID: 0}
     - target: {fileID: 2205898813442858451, guid: 50acbc2d7be8fcf47b95f62504fac5a5, type: 3}
       propertyPath: nodeRect.width
@@ -2488,7 +2502,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2205898813442858451, guid: 50acbc2d7be8fcf47b95f62504fac5a5, type: 3}
       propertyPath: commandList.Array.size
-      value: 9
+      value: 15
       objectReference: {fileID: 0}
     - target: {fileID: 2205898813442858451, guid: 50acbc2d7be8fcf47b95f62504fac5a5, type: 3}
       propertyPath: commandList.Array.data[1]
@@ -2509,17 +2523,41 @@ PrefabInstance:
     - target: {fileID: 2205898813442858451, guid: 50acbc2d7be8fcf47b95f62504fac5a5, type: 3}
       propertyPath: commandList.Array.data[5]
       value: 
-      objectReference: {fileID: 2205898813442858512}
+      objectReference: {fileID: 2205898813442858679}
     - target: {fileID: 2205898813442858451, guid: 50acbc2d7be8fcf47b95f62504fac5a5, type: 3}
       propertyPath: commandList.Array.data[6]
       value: 
-      objectReference: {fileID: 2205898813442858511}
+      objectReference: {fileID: 2205898813442858512}
     - target: {fileID: 2205898813442858451, guid: 50acbc2d7be8fcf47b95f62504fac5a5, type: 3}
       propertyPath: commandList.Array.data[7]
       value: 
-      objectReference: {fileID: 2205898813442858338}
+      objectReference: {fileID: 2205898813442858511}
     - target: {fileID: 2205898813442858451, guid: 50acbc2d7be8fcf47b95f62504fac5a5, type: 3}
       propertyPath: commandList.Array.data[8]
+      value: 
+      objectReference: {fileID: 2205898813442858675}
+    - target: {fileID: 2205898813442858451, guid: 50acbc2d7be8fcf47b95f62504fac5a5, type: 3}
+      propertyPath: commandList.Array.data[9]
+      value: 
+      objectReference: {fileID: 2205898813442858674}
+    - target: {fileID: 2205898813442858451, guid: 50acbc2d7be8fcf47b95f62504fac5a5, type: 3}
+      propertyPath: commandList.Array.data[10]
+      value: 
+      objectReference: {fileID: 2205898813442858673}
+    - target: {fileID: 2205898813442858451, guid: 50acbc2d7be8fcf47b95f62504fac5a5, type: 3}
+      propertyPath: commandList.Array.data[11]
+      value: 
+      objectReference: {fileID: 2205898813442858672}
+    - target: {fileID: 2205898813442858451, guid: 50acbc2d7be8fcf47b95f62504fac5a5, type: 3}
+      propertyPath: commandList.Array.data[12]
+      value: 
+      objectReference: {fileID: 2205898813442858671}
+    - target: {fileID: 2205898813442858451, guid: 50acbc2d7be8fcf47b95f62504fac5a5, type: 3}
+      propertyPath: commandList.Array.data[13]
+      value: 
+      objectReference: {fileID: 2205898813442858670}
+    - target: {fileID: 2205898813442858451, guid: 50acbc2d7be8fcf47b95f62504fac5a5, type: 3}
+      propertyPath: commandList.Array.data[14]
       value: 
       objectReference: {fileID: 2205898813442858337}
     - target: {fileID: 2205898813442858455, guid: 50acbc2d7be8fcf47b95f62504fac5a5, type: 3}
@@ -2592,6 +2630,7 @@ PrefabInstance:
     - {fileID: 7889505865630779386, guid: 50acbc2d7be8fcf47b95f62504fac5a5, type: 3}
     - {fileID: 2205898813442858397, guid: 50acbc2d7be8fcf47b95f62504fac5a5, type: 3}
     - {fileID: 2205898813442858378, guid: 50acbc2d7be8fcf47b95f62504fac5a5, type: 3}
+    - {fileID: 2205898813442858446, guid: 50acbc2d7be8fcf47b95f62504fac5a5, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 50acbc2d7be8fcf47b95f62504fac5a5, type: 3}
 --- !u!114 &2205898813442858305 stripped
 MonoBehaviour:
@@ -2604,33 +2643,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &2205898813442858307
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 218076212}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 263
-  indentLevel: 0
-  storyText: 'Thank you for playing Lighthouse: Episode 1'
-  description: 
-  character: {fileID: 0}
-  portrait: {fileID: 0}
-  voiceOverClip: {fileID: 0}
-  showAlways: 1
-  showCount: 1
-  extendPrevious: 0
-  fadeWhenDone: 1
-  waitForClick: 1
-  stopVoiceover: 1
-  waitForVO: 0
-  setSayDialog: {fileID: 0}
 --- !u!114 &2205898813442858308 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 2205898813442858381, guid: 50acbc2d7be8fcf47b95f62504fac5a5, type: 3}
@@ -2642,113 +2654,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &2205898813442858310
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 218076212}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 264
-  indentLevel: 0
-  storyText: Stay tuned for updates!
-  description: 
-  character: {fileID: 0}
-  portrait: {fileID: 0}
-  voiceOverClip: {fileID: 0}
-  showAlways: 1
-  showCount: 1
-  extendPrevious: 0
-  fadeWhenDone: 1
-  waitForClick: 1
-  stopVoiceover: 1
-  waitForVO: 0
-  setSayDialog: {fileID: 0}
---- !u!114 &2205898813442858311
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 218076212}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3315ad2ebb85443909a1203d56d9344e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 262
-  indentLevel: 0
-  _duration:
-    floatRef: {fileID: 0}
-    floatVal: 3
-  durationOLD: 0
---- !u!114 &2205898813442858312
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 218076212}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: accc065c3e9a6457496f075b1bd49adc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 261
-  indentLevel: 0
-  spriteRenderer: {fileID: 272866142}
-  _duration:
-    floatRef: {fileID: 0}
-    floatVal: 3
-  _targetColor:
-    colorRef: {fileID: 0}
-    colorVal: {r: 1, g: 1, b: 1, a: 1}
-  waitUntilFinished: 1
-  durationOLD: 0
-  targetColorOLD: {r: 0, g: 0, b: 0, a: 0}
---- !u!114 &2205898813442858313
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 218076212}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3315ad2ebb85443909a1203d56d9344e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 260
-  indentLevel: 0
-  _duration:
-    floatRef: {fileID: 0}
-    floatVal: 1
-  durationOLD: 0
---- !u!114 &2205898813442858314
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 218076212}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 10cd462c89cb047158ccfb8a8df3f60a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 259
-  indentLevel: 0
-  spriteRenderer: {fileID: 272866142}
-  _visible:
-    booleanRef: {fileID: 0}
-    booleanVal: 0
-  affectChildren: 1
-  visibleOLD: 0
 --- !u!114 &2205898813442858328 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 2205898813442858437, guid: 50acbc2d7be8fcf47b95f62504fac5a5, type: 3}
@@ -2769,17 +2674,6 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 050fb9e6e72f442b3b883da8a965bdeb, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &2205898813442858338 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 2205898813442858446, guid: 50acbc2d7be8fcf47b95f62504fac5a5, type: 3}
-  m_PrefabInstance: {fileID: 2205898813442858224}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 218076212}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!114 &2205898813442858339 stripped
@@ -2869,7 +2763,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 267
   indentLevel: 0
-  storyText: 'The slasher swings at you and takes a chunk out of your hurt arm. '
+  storyText: 'The creature swings at you and takes a chunk out of your hurt arm. '
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -3007,8 +2901,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 563.86115
-    y: 1058.8285
+    x: 565.51404
+    y: 1060.4813
     width: 87.46553
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -3024,7 +2918,13 @@ MonoBehaviour:
   - {fileID: 2205898813442858422}
   - {fileID: 2205898813442858510}
   - {fileID: 2205898813442858509}
+  - {fileID: 2205898813442858669}
+  - {fileID: 2205898813442858668}
+  - {fileID: 2205898813442858667}
+  - {fileID: 2205898813442858666}
   - {fileID: 2205898813442858421}
+  - {fileID: 2205898813442858665}
+  - {fileID: 2205898813442858664}
   - {fileID: 2205898813442858419}
   suppressAllAutoSelections: 0
 --- !u!114 &2205898813442858421
@@ -3042,7 +2942,7 @@ MonoBehaviour:
   itemId: 284
   indentLevel: 0
   storyText: "Panting heavily, you lie back on the grass. At least you\u2019re a
-    little closer to town now. You see a road heading in."
+    little closer to town now."
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -3323,30 +3223,9 @@ MonoBehaviour:
   stopVoiceover: 1
   waitForVO: 0
   setSayDialog: {fileID: 0}
---- !u!114 &2205898813442858508
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 218076212}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 050fb9e6e72f442b3b883da8a965bdeb, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 289
-  indentLevel: 0
-  targetFlowchart: {fileID: 0}
-  targetBlock: {fileID: 0}
-  startLabel:
-    stringRef: {fileID: 0}
-    stringVal: 
-  startIndex: 0
-  callMode: 0
 --- !u!114 &2205898813442858509
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -3363,7 +3242,7 @@ MonoBehaviour:
   waitUntilFinished: 1
 --- !u!114 &2205898813442858510
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -3381,7 +3260,7 @@ MonoBehaviour:
   fadeDuration: 1
 --- !u!114 &2205898813442858511
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -3398,7 +3277,7 @@ MonoBehaviour:
   waitUntilFinished: 1
 --- !u!114 &2205898813442858512
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -3414,6 +3293,439 @@ MonoBehaviour:
   atTime: 0
   loop: 1
   fadeDuration: 1
+--- !u!114 &2205898813442858664
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 218076212}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 307
+  indentLevel: 0
+  storyText: "Hopefully one that hasn\u2019t been ransacked by crazies. You don\u2019t
+    have much time left. See what you can scavenge, keep moving, head towards the
+    lighthouse\u2026\r"
+  description: 
+  character: {fileID: 0}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &2205898813442858665
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 218076212}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 306
+  indentLevel: 0
+  storyText: "You see a nearby road leading into town. Maybe there\u2019s a pharmacy
+    there.\n"
+  description: 
+  character: {fileID: 0}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &2205898813442858666
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 218076212}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3315ad2ebb85443909a1203d56d9344e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 305
+  indentLevel: 0
+  _duration:
+    floatRef: {fileID: 0}
+    floatVal: 3
+  durationOLD: 0
+--- !u!114 &2205898813442858667
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 218076212}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: accc065c3e9a6457496f075b1bd49adc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 304
+  indentLevel: 0
+  spriteRenderer: {fileID: 272866142}
+  _duration:
+    floatRef: {fileID: 0}
+    floatVal: 3
+  _targetColor:
+    colorRef: {fileID: 0}
+    colorVal: {r: 1, g: 1, b: 1, a: 1}
+  waitUntilFinished: 1
+  durationOLD: 0
+  targetColorOLD: {r: 0, g: 0, b: 0, a: 0}
+--- !u!114 &2205898813442858668
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 218076212}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3315ad2ebb85443909a1203d56d9344e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 303
+  indentLevel: 0
+  _duration:
+    floatRef: {fileID: 0}
+    floatVal: 1
+  durationOLD: 0
+--- !u!114 &2205898813442858669
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 218076212}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 10cd462c89cb047158ccfb8a8df3f60a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 302
+  indentLevel: 0
+  spriteRenderer: {fileID: 272866142}
+  _visible:
+    booleanRef: {fileID: 0}
+    booleanVal: 0
+  affectChildren: 1
+  visibleOLD: 0
+--- !u!114 &2205898813442858670
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 218076212}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 296
+  indentLevel: 0
+  storyText: "Hopefully one that hasn\u2019t been ransacked by crazies. You don\u2019t
+    have much time left. See what you can scavenge, keep moving, head towards the
+    lighthouse\u2026\r"
+  description: 
+  character: {fileID: 0}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &2205898813442858671
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 218076212}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 295
+  indentLevel: 0
+  storyText: "You see a nearby road leading into town. Maybe there\u2019s a pharmacy
+    there.\n"
+  description: 
+  character: {fileID: 0}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &2205898813442858672
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 218076212}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3315ad2ebb85443909a1203d56d9344e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 301
+  indentLevel: 0
+  _duration:
+    floatRef: {fileID: 0}
+    floatVal: 3
+  durationOLD: 0
+--- !u!114 &2205898813442858673
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 218076212}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: accc065c3e9a6457496f075b1bd49adc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 300
+  indentLevel: 0
+  spriteRenderer: {fileID: 272866142}
+  _duration:
+    floatRef: {fileID: 0}
+    floatVal: 3
+  _targetColor:
+    colorRef: {fileID: 0}
+    colorVal: {r: 1, g: 1, b: 1, a: 1}
+  waitUntilFinished: 1
+  durationOLD: 0
+  targetColorOLD: {r: 0, g: 0, b: 0, a: 0}
+--- !u!114 &2205898813442858674
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 218076212}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3315ad2ebb85443909a1203d56d9344e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 299
+  indentLevel: 0
+  _duration:
+    floatRef: {fileID: 0}
+    floatVal: 1
+  durationOLD: 0
+--- !u!114 &2205898813442858675
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 218076212}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 10cd462c89cb047158ccfb8a8df3f60a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 298
+  indentLevel: 0
+  spriteRenderer: {fileID: 272866142}
+  _visible:
+    booleanRef: {fileID: 0}
+    booleanVal: 0
+  affectChildren: 1
+  visibleOLD: 0
+--- !u!114 &2205898813442858676
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 218076212}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 311
+  indentLevel: 0
+  storyText: Stay tuned for future updates!
+  description: 
+  character: {fileID: 0}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &2205898813442858677
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 218076212}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 310
+  indentLevel: 0
+  storyText: To be continued
+  description: 
+  character: {fileID: 0}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &2205898813442858678
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 218076212}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 93cb9773f2ca04e2bbf7a68ccfc23267, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 309
+  indentLevel: 0
+--- !u!114 &2205898813442858679
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 218076212}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 308
+  indentLevel: 0
+  storyText: "You\u2019re pretty hurt, you\u2019re gonna need something to patch
+    yourself up with."
+  description: 
+  character: {fileID: 0}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &2205898813442858680
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 218076212}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3315ad2ebb85443909a1203d56d9344e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 312
+  indentLevel: 0
+  _duration:
+    floatRef: {fileID: 0}
+    floatVal: 3
+  durationOLD: 0
+--- !u!114 &2205898813442858681
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 218076212}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 313
+  indentLevel: 0
+  storyText: 'Thank you for playing Lighthouse: Episode One'
+  description: 
+  character: {fileID: 0}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &2205898813442858682
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 218076212}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3315ad2ebb85443909a1203d56d9344e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 314
+  indentLevel: 0
+  _duration:
+    floatRef: {fileID: 0}
+    floatVal: 3
+  durationOLD: 0
 --- !u!1001 &2976977948238375062
 PrefabInstance:
   m_ObjectHideFlags: 0
